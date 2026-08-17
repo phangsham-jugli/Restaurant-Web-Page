@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(Background.png);
+    background-size: cover;
+}
+nav{
+    margin-top: 10px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 450px;
+    position: fixed;
+    background-color: rgb(0,0,0,0.1);
+}
+#logo{
+    
+    height: 140px;
+    width: 180px;
+   
+    
+}
+#logo img{
+    margin-left:15px ;
+    height: 140px;
+    width: 140px;
+}
+#navop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#navIc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right:60px ;
+}
+
+main{
+    padding: 180px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 70px;
+}
+
+.section1 h5{
+    font-size: 14px;
+    color: orange;
+}
+.section1 h1{
+    font-size:35px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+#orange{
+    color: orange;
+}
+.section1 h6{
+    padding-top: 20px;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.section1 #scbutton{
+margin-top:50px;
+display: flex;
+align-items: center;
+gap:8px;
+}
+#scbt1,#scbt2{
+padding: 6px 6px;
+border-radius: 5px;
+border: 2px solid transparent;
+background-color: rgb(255,89,0);
+}
+
+
+
+#foot{
+    font-size: 15px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#foot span{
+    color: orange;
+}
